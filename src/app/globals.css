@@ -21,6 +21,8 @@ body {
   background: linear-gradient(89.63deg, var(--color-primary) -2.16%, #10CBE0 115.27%);
 }
 
-.shadow-primary {
-  box-shadow: 0px 4px 4px 0px var(--color-primary);
+@media (min-width: 1024px) {
+  .banner-gradient {
+    background: linear-gradient(90deg, var(--color-primary) 0%, #10CBE0 100%);
+  }
 }
