@@ -7,7 +7,7 @@ const HeroContentDisclaimer: React.FC<
   return (
     <div
       className={Utils.cn(
-        "text-muted font-figtree font-[500] text-xs leading-none px-[27px]",
+        "text-muted font-figtree font-[500] text-xs leading-3 px-[27px] lg:px-0",
         className
       )}
       {...props}

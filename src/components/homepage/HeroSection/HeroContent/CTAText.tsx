@@ -7,7 +7,7 @@ const CTAText: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 }) => {
   return (
     <p
-      className={Utils.cn("font-figtree text-xs leading-none", className)}
+      className={Utils.cn("font-figtree text-xs leading-4", className)}
       {...props}
     >
       1-minute quiz for personalized Insights

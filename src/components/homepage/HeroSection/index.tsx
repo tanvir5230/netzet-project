@@ -8,9 +8,17 @@ const HeroSection: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
   ...props
 }) => {
   return (
-    <div className={Utils.cn("text-white", className)} {...props}>
-      <HeroImage />
-      <HeroContent />
+    <div
+      className={Utils.cn(
+        "text-white text-center lg:text-left lg:flex lg:items-center relative lg:py-14",
+        className
+      )}
+      {...props}
+    >
+      <HeroImage className="w-full lg:hidden" />
+      <HeroContent className="w-full lg:w-6/12 z-10" />
+      <div></div>
+      <div className="hidden lg:block absolute -top-10 -right-[140px] bottom-0 w-[666px] min-h-full bg-[url('/images/hero-image.png')] bg-no-repeat"></div>
     </div>
   );
 };

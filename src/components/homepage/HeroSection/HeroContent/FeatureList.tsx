@@ -14,12 +14,12 @@ const HeroContentFeatureList: React.FC<HTMLAttributes<HTMLDivElement>> = ({
 }) => {
   return (
     <div className={Utils.cn("", className)} {...props}>
-      <ul className="flex flex-col gap-[10px] font-figtree font-[500] leading-[22px]">
+      <ul className="flex flex-col gap-[10px] font-figtree text-left text-base font-[500] leading-[22px]">
         {features.map((feature, i) => {
           return (
             <li
               key={i}
-              className="text-white flex justify-between gap-[11px] items-center"
+              className="text-white flex justify-between lg:justify-start gap-[11px] items-center"
             >
               <span>✨</span>
               <span>{feature}</span>
