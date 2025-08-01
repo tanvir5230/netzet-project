@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Figtree, Urbanist } from "next/font/google";
+import { Figtree, Nunito, Urbanist } from "next/font/google";
 import "./globals.css";
 
 const urbanist = Urbanist({
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   variable: "--font-urbanist",
@@ -11,10 +11,18 @@ const urbanist = Urbanist({
 });
 
 const figtree = Figtree({
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700", "800"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   variable: "--font-figtree",
+  fallback: ["system-ui", "arial"],
+});
+
+const nunito = Nunito({
+  weight: ["400", "500", "600", "700", "800"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  variable: "--font-nunito",
   fallback: ["system-ui", "arial"],
 });
 
@@ -30,7 +38,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${urbanist.variable} ${figtree.variable} antialiased`}>
+      <body
+        className={`${urbanist.variable} ${figtree.variable} ${nunito.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
