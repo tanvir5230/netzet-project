@@ -9,7 +9,7 @@ const CTAButton: React.FC<CTAButtonProps> = ({ className, ...props }) => {
   return (
     <Button
       className={Utils.cn(
-        "bg-primary w-full rounded-[10px] flex gap-[10px] py-3",
+        "bg-primary w-full rounded-[10px] flex gap-[10px] shadow-[2px_2px_10px] shadow-secondary py-3",
         className
       )}
       {...props}
