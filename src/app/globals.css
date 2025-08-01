@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 @theme inline {
+  /* Fonts */
   --font-urbanist: var(--font-urbanist);
   --font-figtree: var(--font-figtree);
+
+  /* Colors */
+  --color-primary: #FC004E;
+  --color-secondary: #00E7F9;
+  --color-black: #1E1E1E;
 }
 
 body {
