@@ -15,7 +15,7 @@ const HeroSection: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
       )}
       {...props}
     >
-      <HeroImage className="w-full -translate-y-3 lg:hidden" />
+      <HeroImage className="w-full -translate-y-1 lg:hidden" />
       <HeroContent className="w-full lg:w-6/12 z-10" />
       <div></div>
       <div className="hidden absolute -top-10 -right-[140px] bottom-0 w-[666px] lg:flex items-center justify-center">

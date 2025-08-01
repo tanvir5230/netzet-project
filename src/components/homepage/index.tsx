@@ -8,7 +8,7 @@ const Homepage: React.FC = () => {
   return (
     <>
       <Banner />
-      <div className="bg-black lg:h-screen">
+      <div>
         <Container className="h-full">
           <div className="h-full flex flex-col">
             <AppHeader />
