@@ -14,7 +14,7 @@ const CTAButton: React.FC<CTAButtonProps> = ({ className, ...props }) => {
       )}
       {...props}
     >
-      <span className="uppercase text-white font-bold text-xl leading-none">
+      <span className="uppercase text-white font-bold text-xl leading-5">
         Get Started
       </span>
       <Image

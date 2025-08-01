@@ -18,7 +18,7 @@ const HeroContent: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
     >
       <HeroContentHeadline />
       <HeroContentFeatureList />
-      <div className="text-center flex flex-col gap-[19px]">
+      <div className="flex flex-col gap-[19px]">
         <HeroContentDisclaimer />
         <Copyright />
       </div>

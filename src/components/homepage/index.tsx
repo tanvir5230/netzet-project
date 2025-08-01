@@ -6,15 +6,17 @@ import Banner from "./Banner";
 
 const Homepage: React.FC = () => {
   return (
-    <div className="bg-black w-screen min-h-screen">
+    <>
       <Banner />
-      <Container>
-        <div className="flex flex-col">
-          <AppHeader />
-          <HeroSection className="flex-1" />
-        </div>
-      </Container>
-    </div>
+      <div>
+        <Container className="h-full">
+          <div className="h-full flex flex-col">
+            <AppHeader />
+            <HeroSection className="flex-1" />
+          </div>
+        </Container>
+      </div>
+    </>
   );
 };
 

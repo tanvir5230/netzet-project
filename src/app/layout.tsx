@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${urbanist.variable} ${figtree.variable} ${nunito.variable} antialiased`}
+        className={`${urbanist.variable} ${figtree.variable} ${nunito.variable} antialiased bg-black`}
       >
         {children}
       </body>

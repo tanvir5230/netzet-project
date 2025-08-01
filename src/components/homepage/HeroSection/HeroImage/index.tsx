@@ -12,7 +12,7 @@ const HeroImage: React.FC<React.HtmlHTMLAttributes<HTMLDivElement>> = ({
         alt="Hero Image"
         width={390}
         height={426}
-        className="-translate-y-3"
+        className={className}
       />
     </div>
   );
