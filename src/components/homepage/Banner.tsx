@@ -10,7 +10,7 @@ const Banner: React.FC<React.HtmlHTMLAttributes<HTMLDivElement>> = ({
       {...props}
       className={Utils.cn("banner-gradient px-5 py-4", className)}
     >
-      <p className="text-white text-center text-base font-extrabold leading-5 font-figtree">
+      <p className="text-white text-center text-sm sm:text-base font-extrabold leading-5 font-figtree">
         <span>🚀 </span>
         <span className="text-secondary">FRESH BEGINNINGS SALE:</span>{" "}
         <span>Extra 25% OFF, Limited Spots - start your journey today!</span>
