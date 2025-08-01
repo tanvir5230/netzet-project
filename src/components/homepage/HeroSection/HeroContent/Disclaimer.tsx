@@ -13,8 +13,8 @@ const HeroContentDisclaimer: React.FC<
       {...props}
     >
       <p>
-        By clicking "Get Started", you agree with Terms and Conditions, Privacy
-        Policy, Subscription Terms
+        By clicking &quot;Get Started&quot;, you agree with Terms and
+        Conditions, Privacy Policy, Subscription Terms
       </p>
     </div>
   );
